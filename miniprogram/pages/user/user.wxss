@@ -1,0 +1,18 @@
+/* pages/user/user.wxss */
+.user-info{
+  display: flex;
+  align-items: center;
+  height: 150rpx;
+  border:1px #b4b5b6 solid;
+  border-left: none;border-right: none;
+}
+.user-info image{
+  width: 100rpx;height: 100rpx;border-radius: 50%;overflow: hidden;
+}
+.user-info button{
+  margin: 0;
+}
+.user-list-item{
+  height: 50rpx;border-bottom: 1px dashed #b4b5b6;padding: 10rpx;
+  display: flex; align-items: center; justify-content: space-between;
+}
